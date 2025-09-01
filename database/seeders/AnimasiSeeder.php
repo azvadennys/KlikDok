@@ -17,85 +17,66 @@ class AnimasiSeeder extends Seeder
     {
         $animasi = [
             [
-                'nama' => 'Dermatofitosis',
-                'video_animasi' => 'images/animasi/Dermatofitosis.mp4',
+                'nama' => 'Demodikosis',
+                'video_animasi' => 'images/animasi/P001.mp4',
                 'id_penyakit' => ['P001'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Aspergillosis',
-                'video_animasi' => 'images/animasi/Aspergillosis.mp4',
+                'nama' => 'Parainfluenza',
+                'video_animasi' => 'images/animasi/P002.mp4',
                 'id_penyakit' => ['P002'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Phaeohyphomycosis',
-                'video_animasi' => 'images/animasi/Phaeohyphomycosis.mp4',
+                'nama' => 'Ancylostomiasis',
+                'video_animasi' => 'images/animasi/P003.mp4',
                 'id_penyakit' => ['P003'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Candidiasis',
-                'video_animasi' => 'images/animasi/Candidiasis.mp4',
+                'nama' => 'Otitis',
+                'video_animasi' => 'images/animasi/P004.mp4',
                 'id_penyakit' => ['P004'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Blastomikosis',
-                'video_animasi' => 'images/animasi/Blastomikosis.mp4',
+                'nama' => 'Canine Distemper',
+                'video_animasi' => 'images/animasi/P005.mp4',
                 'id_penyakit' => ['P005'],
                 'narator' => ''
             ],
 
             [
-                'nama' => 'Sporotrikosis',
-                'video_animasi' => 'images/animasi/Sporotrikosis.mp4',
+                'nama' => 'Rabies',
+                'video_animasi' => 'images/animasi/P006.mp4',
                 'id_penyakit' => ['P006'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Kriptokokosis',
-                'video_animasi' => 'images/animasi/Kriptokokosis.mp4',
+                'nama' => 'LUTD (Lower Urinary Tract Disease)',
+                'video_animasi' => 'images/animasi/P007.mp4',
                 'id_penyakit' => ['P007'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Histoplasmosis',
-                'video_animasi' => 'images/animasi/Histoplasmosis.mp4',
+                'nama' => 'Leptospirosis',
+                'video_animasi' => 'images/animasi/P008.mp4',
                 'id_penyakit' => ['P008'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Rhinosporidiosis',
-                'video_animasi' => 'images/animasi/Rhinosporidiosis.mp4',
+                'nama' => 'Parvovirus',
+                'video_animasi' => 'images/animasi/P009.mp4',
                 'id_penyakit' => ['P009'],
                 'narator' => ''
             ],
             [
-                'nama' => 'Mycetoma',
-                'video_animasi' => 'images/animasi/Mycetoma.mp4',
+                'nama' => 'Hepatitis (Infectious Canine Hepatitis)',
+                'video_animasi' => 'images/animasi/P010.mp4',
                 'id_penyakit' => ['P010'],
                 'narator' => ''
             ],
-            [
-                'nama' => 'Coccidioidomikosis',
-                'video_animasi' => 'images/animasi/Coccidioidomikosis.mp4',
-                'id_penyakit' => ['P011'],
-                'narator' => ''
-            ],
-            [
-                'nama' => 'Malassezia Dermatitis',
-                'video_animasi' => 'images/animasi/Malassezia Dermatitis.mp4',
-                'id_penyakit' => ['P012'],
-                'narator' => ''
-            ],
-            [
-                'nama' => 'Onychomycosis',
-                'video_animasi' => 'images/animasi/Onychomycosis.mp4',
-                'id_penyakit' => ['P013'],
-                'narator' => ''
-            ],
-
         ];
 
         // Encode id_penyakit menjadi JSON sebelum menyimpan ke database

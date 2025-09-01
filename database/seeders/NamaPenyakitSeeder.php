@@ -18,83 +18,73 @@ class NamaPenyakitSeeder extends Seeder
         $penyakit = [
             [
                 'kode_penyakit' => 'P001',
-                'nama_penyakit' => 'Dermatofitosis',
-                'deskripsi' => 'Dermatofitosis adalah penyakit kulit yang disebabkan oleh infeksi jamur dermatofita, khususnya Microsporum Canis. Penyakit ini lebih umum terjadi pada kucing dibandingkan dengan anjing, dengan gejala utama berupa lesi kulit, kerontokan rambut, dan gatal. Penularan jamur ini dapat terjadi baik secara langsung dari hewan yang terinfeksi maupun melalui lingkungan yang tercemar, menjadikannya sebagai masalah zoonosis yang perlu ditangani dengan serius.',
+                'nama_penyakit' => 'Demodikosis',
+                'deskripsi' => 'Demodikosis, juga dikenal sebagai demodectic mange atau kudis folikular, adalah penyakit kulit yang disebabkan oleh infestasi tungau mikroskopis dari genus Demodex. Tungau ini biasanya hidup di dalam folikel rambut dan kelenjar sebaceous anjing sehat, tetapi tidak menimbulkan masalah jika populasinya terkendali. Ketika jumlahnya meningkat secara tidak normal, dapat menyebabkan peradangan kulit parah. Kondisi ini sering terkait dengan sistem kekebalan tubuh yang melemah, baik karena faktor genetik, penyakit lain, stres, atau penggunaan obat imunosupresif. Anjing muda atau yang imunitasnya belum berkembang sempurna lebih rentan terkena demodikosis.',
                 'foto_penyakit' => 'images/penyakit/P001.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P002',
-                'nama_penyakit' => 'Aspergillosis',
-                'deskripsi' => 'Aspergillosis merupakan infeksi saluran pernapasan yang disebabkan oleh jamur Aspergillus, khususnya Aspergillus Fumigatus. Jamur ini umumnya ditemukan di pupuk kandang dan humus, dan dapat menyebabkan gejala seperti batuk, sesak nafas, serta pneumonia. Penularan terjadi melalui inhalasi spora jamur yang tersebar di udara, terutama di lingkungan yang terkontaminasi.',
+                'nama_penyakit' => 'Parainfluenza',
+                'deskripsi' => 'Parainfluenza pada anjing adalah penyakit infeksi saluran pernapasan yang disebabkan oleh Canine Parainfluenza Virus. Virus ini merupakan salah satu penyebab utama Kennel Cough (batuk kandang), penyakit pernapasan menular yang sering menyerang anjing di lingkungan padat seperti penampungan, kandang komersial, atau acara kumpul anjing. Virus menyebar melalui droplet udara ketika anjing terinfeksi batuk/bersin, serta kontak langsung dengan cairan hidung. Penyakit ini lebih parah pada anak anjing atau anjing dengan kekebalan lemah.',
                 'foto_penyakit' => 'images/penyakit/P002.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P003',
-                'nama_penyakit' => 'Phaeohyphomycosis',
-                'deskripsi' => 'Phaeohyphomycosis adalah penyakit yang disebabkan oleh jamur hitam yang memiliki dinding septa miselia gelap. Dalam dunia veteriner, infeksi ini sering kali terjadi pada kulit dan dapat bersifat subkutan atau sistemik. Gejala yang muncul biasanya berupa lesi kulit, dan infeksi sering kali merupakan kontaminasi sekunder akibat luka traumatis. Penularan dapat terjadi melalui kontak langsung dengan lingkungan yang tercemar.',
+                'nama_penyakit' => 'Ancylostomiasis',
+                'deskripsi' => 'Ancylostomiasis pada anjing adalah infeksi yang disebabkan oleh cacing tambang (Ancylostoma spp.) yang hidup di usus kecil. Cacing ini menempel pada dinding usus dan menghisap darah inangnya, menyebabkan kerusakan jaringan serta anemia parah jika infeksinya berat. Penularan dapat melalui penetrasi kulit, konsumsi larva terkontaminasi, atau transmisi melalui ASI induk ke anak anjing. Lingkungan lembab dan tidak bersih meningkatkan risiko penyebaran.',
                 'foto_penyakit' => 'images/penyakit/P003.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P004',
-                'nama_penyakit' => 'Candidiasis',
-                'deskripsi' => 'Candidiasis adalah infeksi yang disebabkan oleh jamur Candida, terutama Candida Albicans. Infeksi ini dapat terjadi di berbagai area tubuh, seperti kelamin, mulut, kulit, dan darah. Gejala umum meliputi infeksi di rongga mulut, kulit, dan area genital, dengan penyebab utama adalah pertumbuhan jamur yang berlebihan di area lembab. Penularan sering terjadi melalui kontak langsung dengan lingkungan yang terkontaminasi.',
+                'nama_penyakit' => 'Otitis',
+                'deskripsi' => 'Otitis pada anjing adalah peradangan atau infeksi pada telinga luar, tengah, atau dalam. Umumnya terjadi pada anjing bertelinga terkulai atau sering terkena air. Penyebabnya termasuk infeksi bakteri, jamur, parasit, atau alergi. Jika tidak ditangani, dapat menimbulkan komplikasi serius seperti kerusakan permanen pada telinga dan gangguan pendengaran.',
                 'foto_penyakit' => 'images/penyakit/P004.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P005',
-                'nama_penyakit' => 'Blastomikosis',
-                'deskripsi' => 'Blastomikosis adalah infeksi sistemik yang disebabkan oleh Blastomyces Dermatitidis. Penyakit ini sering dimulai di paru-paru dan dapat menyebar ke organ lain, termasuk kulit dan tulang, dengan gejala seperti lesi granulomatosa dan demam. Penularan terjadi melalui inhalasi atau penelanan spora jamur yang biasanya ditemukan di tanah lembab.',
+                'nama_penyakit' => 'Canine Distemper',
+                'deskripsi' => 'Canine Distemper adalah penyakit viral sangat menular yang menyerang sistem pernapasan, pencernaan, dan saraf. Disebabkan oleh Canine Distemper Virus (CDV) dari famili Paramyxoviridae. Penularan melalui droplet udara atau kontak langsung dengan cairan tubuh anjing terinfeksi. Distemper sangat mematikan, terutama pada anak anjing atau anjing yang tidak divaksinasi.',
                 'foto_penyakit' => 'images/penyakit/P005.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P006',
-                'nama_penyakit' => 'Sporotrikosis',
-                'deskripsi' => 'Sporotrikosis adalah infeksi kronik yang disebabkan oleh Sporothrix Schenckii. Penyakit ini dapat muncul dalam dua bentuk, yaitu tipe kulit primer dan sistemik, yang disebabkan oleh inokulasi jamur pada kulit yang mengalami trauma. Gejala dapat bervariasi, dengan lesi yang muncul di tempat inokulasi dan reaksi inflamasi pada saluran limfatik. Penularan terjadi melalui luka yang terkontaminasi.',
+                'nama_penyakit' => 'Rabies',
+                'deskripsi' => 'Rabies adalah penyakit viral akut yang sangat mematikan, menyerang sistem saraf pusat anjing dan mamalia lain termasuk manusia. Disebabkan oleh Rabies virus (genus Lyssavirus). Penularan biasanya melalui gigitan hewan terinfeksi. Rabies memiliki dua bentuk klinis: furious rabies (agresif, hiperaktif) dan dumb rabies (kelumpuhan progresif).',
                 'foto_penyakit' => 'images/penyakit/P006.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P007',
-                'nama_penyakit' => 'Kriptokokosis',
-                'deskripsi' => 'Kriptokokosis disebabkan oleh infeksi jamur Cryptococcus Neoformans, yang umumnya ditemukan di kotoran burung. Kucing dengan sistem imun yang lemah, seperti yang terinfeksi FIV atau FeLV, lebih rentan terhadap infeksi ini. Gejala yang muncul bervariasi tergantung lokasi infeksi, termasuk batuk, lesi kulit, dan penurunan nafsu makan. Kontaminasi dapat terjadi melalui kontak dengan limbah terkontaminasi.',
+                'nama_penyakit' => 'LUTD (Lower Urinary Tract Disease)',
+                'deskripsi' => 'LUTD adalah istilah umum untuk berbagai gangguan pada saluran kemih bawah anjing, termasuk kandung kemih dan uretra. Penyebabnya bisa infeksi bakteri, batu kemih, cedera, atau masalah metabolik. LUTD dapat bersifat akut atau kronis, dari infeksi ringan hingga obstruksi uretra serius. Faktor risiko meliputi usia, jenis kelamin, pola makan, dan riwayat kesehatan.',
                 'foto_penyakit' => 'images/penyakit/P007.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P008',
-                'nama_penyakit' => 'Histoplasmosis',
-                'deskripsi' => 'Histoplasmosis merupakan infeksi jamur invasif yang disebabkan oleh Histoplasma Capsulatum. Setelah terhirup, spora jamur dapat menyebabkan infeksi di paru-paru dan menyebar ke organ lain melalui darah atau sistem limfatik. Gejala yang muncul biasanya tidak spesifik, termasuk anoreksia, penurunan berat badan, dan kesulitan bernapas, sehingga diagnosis yang tepat sangat penting.',
+                'nama_penyakit' => 'Leptospirosis',
+                'deskripsi' => 'Leptospirosis adalah infeksi bakteri zoonosis yang disebabkan oleh Leptospira spp. Bakteri spiral ini hidup di air/tanah terkontaminasi urin hewan terinfeksi (terutama tikus). Infeksi terjadi melalui kontak langsung dengan urin atau jaringan hewan, maupun tidak langsung melalui lingkungan. Leptospirosis dapat menyerang hati, ginjal, paru-paru, hingga sistem saraf pusat.',
                 'foto_penyakit' => 'images/penyakit/P008.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P009',
-                'nama_penyakit' => 'Rhinosporidiosis',
-                'deskripsi' => 'Rhinosporidiosis adalah penyakit yang disebabkan oleh jamur parasit Rhinosporidium Seeberi. Meskipun lebih umum terjadi pada hewan lain, kasus pada kucing jarang terjadi. Gejalanya meliputi pembengkakan dan peradangan di hidung serta kesulitan bernapas. Pengobatan umumnya melibatkan pembedahan untuk mengangkat jaringan yang terinfeksi.',
+                'nama_penyakit' => 'Parvovirus',
+                'deskripsi' => 'Parvovirus anjing adalah penyakit viral sangat menular yang menyerang sistem pencernaan dan kadang jantung. Disebabkan oleh Canine Parvovirus type 2 (CPV-2). Virus menyebar melalui kontak langsung dengan anjing terinfeksi atau lingkungan terkontaminasi. CPV-2 sangat tahan lama di lingkungan, sering menyebabkan kerusakan parah pada usus, dehidrasi, malnutrisi, serta infeksi sekunder.',
                 'foto_penyakit' => 'images/penyakit/P009.jpg',
             ],
+
             [
                 'kode_penyakit' => 'P010',
-                'nama_penyakit' => 'Mycetomas',
-                'deskripsi' => 'Mycetomas adalah infeksi kronis yang mempengaruhi kulit, jaringan subkutan, dan kadang-kadang tulang. Penyakit ini ditandai oleh pembentukan abses yang berisi nanah dan serpihan jaringan. Penularan terjadi melalui kontak langsung dengan spora jamur di lingkungan, terutama tanah terkontaminasi, dan kucing dengan sistem imun lemah lebih rentan terhadap infeksi ini.',
+                'nama_penyakit' => 'Hepatitis (Infectious Canine Hepatitis)',
+                'deskripsi' => 'Hepatitis pada anjing biasanya disebabkan oleh Canine Adenovirus type 1 (CAV-1). Penyakit ini menyerang hati, ginjal, dan selaput lendir mata, bersifat akut atau kronis. Virus menyebar melalui air liur, urin, dan feses anjing terinfeksi. Komplikasi termasuk kerusakan hati parah dan kondisi “blue eye” (perubahan warna mata akibat edema kornea). Vaksinasi adalah pencegahan utama.',
                 'foto_penyakit' => 'images/penyakit/P010.jpg',
             ],
-            [
-                'kode_penyakit' => 'P011',
-                'nama_penyakit' => 'Coccidioidomycosis',
-                'deskripsi' => 'Coccidioidomycosis adalah infeksi jamur yang disebabkan oleh Coccidioides Immitis atau Coccidioides Posadasii. Penyakit ini sering dikenal sebagai "demam gurun" dan dapat terjadi pada kucing yang terpapar spora melalui inhalasi. Gejala dapat bervariasi, mulai dari demam dan batuk hingga pneumonia yang lebih serius, tergantung pada tingkat keparahan infeksi.',
-                'foto_penyakit' => 'images/penyakit/P011.jpg',
-            ],
-            [
-                'kode_penyakit' => 'P012',
-                'nama_penyakit' => 'Malassezia dermatitis',
-                'deskripsi' => 'Malassezia dermatitis adalah infeksi kulit yang disebabkan oleh pertumbuhan berlebihan jamur Malassezia, yang merupakan bagian dari flora normal kulit. Ketika jamur ini tumbuh secara berlebihan, dapat menyebabkan reaksi inflamasi yang menghasilkan gejala seperti gatal, kemerahan, dan ketombe. Area yang paling sering terpengaruh adalah telinga, lipatan kulit, dan bagian tubuh dengan kulit yang lebih tebal.',
-                'foto_penyakit' => 'images/penyakit/P012.jpg',
-            ],
-            [
-                'kode_penyakit' => 'P013',
-                'nama_penyakit' => 'Onychomycosis',
-                'deskripsi' => 'Onychomycosis merujuk pada infeksi jamur pada kuku, yang umumnya disebabkan oleh dermatofit seperti Trichophyton. Gejala dapat mencakup kuku yang rapuh, menguning, dan iritasi di sekitar kuku yang terinfeksi. Infeksi ini dapat menyebar dari satu kuku ke kuku lainnya, sehingga memerlukan penanganan yang tepat untuk mencegah penyebaran lebih lanjut.',
-                'foto_penyakit' => 'images/penyakit/P013.jpg',
-            ],
-
         ];
 
         DB::table('penyakit')->insert($penyakit);
