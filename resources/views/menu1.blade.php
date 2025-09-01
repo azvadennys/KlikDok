@@ -2,8 +2,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
         <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto">
-            <img src="{{ asset('assets/img/icon.png') }}" alt="">
-            <h1 class="sitename" style="color: #FFB4C2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Pet Care</h1>
+            <h1 class="" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Klik<span style="color: #E0004D; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Dok</span></h1>
         </a>
 
         <nav id="navmenu" class="navmenu">

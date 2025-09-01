@@ -1,13 +1,13 @@
 @extends('index')
 @section('content')
     <div class="container">
-        <h1 class="text-center mb-3" style="color : #DA7297;">Selamat datang di Dashboard Administrator</h1>
+        <h1 class="text-center mb-3" style="color : #E0004D;">Selamat datang di Dashboard Administrator</h1>
         <!-- Card Stats -->
         <div class="row">
             <!-- Card Total Gejala -->
             <div class="col-md-3 mb-2">
                 <div class="card">
-                    <div class="card-header text-white "style="background-color: #DA7297">
+                    <div class="card-header text-white "style="background-color: #E0004D">
                         Total Gejala
                     </div>
                     <div class="card-body">
@@ -19,7 +19,7 @@
             <!-- Card Total Penyakit -->
             <div class="col-md-3 mb-2">
                 <div class="card">
-                    <div class="card-header text-white "style="background-color: #DA7297">
+                    <div class="card-header text-white "style="background-color: #E0004D">
                         Total Penyakit
                     </div>
                     <div class="card-body">
@@ -31,7 +31,7 @@
             <!-- Card Total Pengetahuan -->
             <div class="col-md-3 mb-2">
                 <div class="card">
-                    <div class="card-header text-white "style="background-color: #DA7297">
+                    <div class="card-header text-white "style="background-color: #E0004D">
                         Total Pengetahuan
                     </div>
                     <div class="card-body">
@@ -43,7 +43,7 @@
             <!-- Card Total Pengguna -->
             <div class="col-md-3 mb-2">
                 <div class="card">
-                    <div class="card-header text-white "style="background-color: #DA7297">
+                    <div class="card-header text-white "style="background-color: #E0004D">
                         Total Pengguna
                     </div>
                     <div class="card-body">
@@ -57,7 +57,7 @@
         <div class="row mt-5">
             <div class="col-md-6 mb-2">
                 <div class="card">
-                    <div class="card-header text-white "style="background-color: #DA7297">
+                    <div class="card-header text-white "style="background-color: #E0004D">
                         Diagnosa Seminggu Terakhir
                     </div>
                     <div class="card-body">
@@ -68,7 +68,7 @@
             </div>
             <div class="col-md-6 mb-2">
                 <div class="card">
-                    <div class="card-header text-white "style="background-color: #DA7297">
+                    <div class="card-header text-white "style="background-color: #E0004D">
                         Penyakit Terdiagnosa
                     </div>
                     <div class="card-body">

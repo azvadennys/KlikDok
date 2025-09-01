@@ -32,7 +32,8 @@
 
     <!-- Add SweetAlert2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- Tambahkan link Google Fonts di dalam <head> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: QuickStart
@@ -42,26 +43,11 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-@php
-    $backgroundImage = asset('assets/img/background.jpg'); // Default background
-    if (Auth::check()) {
-            if(auth()->user()->role != "admin" && Request::is('/')){
-
-            $backgroundImage = asset('assets/img/background2.png');
-
-            }
-    }else {
-        if (Request::is('/')){
-            $backgroundImage = asset('assets/img/background2.png');
-
-        }
-    }
-@endphp
 
 
 <style>
     body {
-        font-family: 'ADLaM Display', sans-serif;
+        font-family: 'Poppins', sans-serif;
         position: relative;
         /* Memastikan overlay berfungsi dengan benar */
         margin: 0;
@@ -69,28 +55,6 @@
         min-height: 100vh;
         /* Mengisi seluruh tinggi viewport */
         /* overflow: hidden; Menghindari scroll yang tidak diinginkan */
-    }
-
-    body::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('{{ $backgroundImage }}');
-        background-repeat: repeat-y;
-        /* Ulangi gambar secara vertikal */
-        background-size: 100% auto;
-        /* Mengisi lebar layar 100% dan mempertahankan proporsi tinggi */
-        background-position: top left;
-        background-color: #667BC6;
-        /* Mulai dari pojok kiri atas */
-         opacity: {{ Request::is('/') ? 0.8 : 0.3 }};
-
-        /* Menjadikan background image dengan opacity 10% */
-        z-index: -1;
-        /* Membuat overlay berada di bawah konten body */
     }
 
     footer {
@@ -138,7 +102,7 @@
     <footer id="footer" class="footer position-relative light-background">
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">KERIN LAURENSYAH YUDISTIRA </strong><span>All
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">HIZKIA TIGOR SIHOTANG </strong><span>All
                     Rights
                     Reserved</span></p>
             <div class="credits">

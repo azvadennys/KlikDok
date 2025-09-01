@@ -4,16 +4,19 @@
 @endpush
 @section('content')
     <div class="container">
-        <h2 class="text-center">Konsultasi Penyakit Infeksi Jamur Pada Kucing</h2>
-        <p class="text-center">Selamat datang di Sistem Pakar Diagnosa Penyakit Infeksi Jamur Kucing, tempat terbaik untuk
-            mendapatkan informasi dan konsultasi seputar penyakit infeksi jamur pada kucing. Kami memahami betapa pentingnya
-            kesehatan hewan peliharaan Anda dan siap membantu mengidentifikasi serta memberikan solusi untuk mengatasi
-            berbagai masalah infeksi jamur yang dapat mengganggu kenyamanan kucing kesayangan Anda.</p>
+        <h2 class="text-center">Konsultasi Penyakit Anjing</h2>
+        <p class="text-center">
+            Selamat datang di <strong>Sistem Pakar Diagnosa Penyakit Anjing</strong>.
+            Kami hadir untuk membantu Anda memahami kondisi kesehatan anjing kesayangan dengan cepat dan akurat.
+            Dapatkan informasi terpercaya seputar penyakit, nutrisi, serta perawatan terbaik agar sahabat berbulu Anda
+            selalu sehat, ceria, dan penuh energi setiap hari.
+        </p>
+
         <form method="post" action="{{ route('calculate.cf') }}" id="cfForm">
             @csrf
             <div class="table-responsive">
-                <table class="table table-bordered " style="border:#DA7297">
-                    <thead style="--bs-table-bg: #DA7297; --bs-table-color:rgb(0, 0, 0);" class="text-white">
+                <table class="table table-bordered " style="border:#E0004D">
+                    <thead style="--bs-table-bg: #E0004D; --bs-table-color:rgb(255, 255, 255);" class="text-white">
                         <tr>
                             <th class="text-center">KODE GEJALA</th>
                             <th>NAMA GEJALA</th>
@@ -24,7 +27,7 @@
                     <tbody>
                         @foreach ($gejala as $kategori => $items)
                             <tr>
-                                <td class="text-left" colspan="5" style="color: #DA7297"><b>{{ $kategori }}</b></td>
+                                <td class="text-left" colspan="5" style="color: #E0004D"><b>{{ $kategori }}</b></td>
                             </tr>
                             @foreach ($items as $item)
                                 <tr>

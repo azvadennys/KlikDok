@@ -1,30 +1,25 @@
 @extends('index')
 @section('content')
-    <div class="row justify-content-center">
-        <!-- Text Section -->
-        <div class="col-12">
-            <h1 style="font-size: 90px; text-align: center; line-height: 1.2;">
-                <span style="color: #DA7297; background-color: #FDFFD2; padding: 5px; border-radius: 3px;">Healthy</span>
-                <span style="color: #FFFFFF;">Pets</span>
-            </h1>
-            <h1 style="font-size: 90px; text-align: center; color: #FFFFFF; line-height: 1.2;" class="mb-3">Happy People
-            </h1>
+    <div class="container py-5">
+  <div class="row align-items-center">
+    <!-- Kolom kiri (teks) -->
+    <div class="col-md-6">
+      <h1 class="fw-bold">SOLUSI KESEHATAN<br>ANJING ANDA</h1>
+      <h5 class="text-danger fw-bold mt-3">LAYANAN CEPAT DAN TEPAT</h5>
+      <p class="mt-3">
+        Kami hadir untuk membantu Anda merawat anjing kesayangan dengan informasi terpercaya
+        tentang kesehatan, nutrisi, dan perawatan terbaik. Temukan panduan lengkap agar sahabat
+        berbulu Anda tetap sehat, bahagia, dan aktif setiap hari!
+      </p>
+      <a href="{{route('diagnosa')}}" class="btn btn-danger btn-lg mt-3">Konsultasi Sekarang</a>
+    </div>
 
-        </div>
-        <div class="col-12 col-md-6">
-            <p style=" font-size: 20px; text-align: justify; color: #FFFFFF;">"Kucing bukan sekadar hewan
-                peliharaan, mereka adalah bagian dari keluarga. Sama seperti kita, mereka bisa sakit tanpa terlihat
-                gejalanya. Yuk, tunjukkan cinta kita dengan memeriksakan kesehatannya secara rutin. Karena kucing yang
-                sehat, artinya rumah yang lebih hangat dan penuh cinta."</p>
-        </div>
+    <!-- Kolom kanan (gambar) -->
+    <div class="col-md-6 text-center">
+      <img src="{{ asset('assets/img/dokter-anjing.jpg') }}" alt="Dokter Hewan dan Anjing" class="img-fluid rounded">
     </div>
-    <div class="row justify-content-end mt-5">
-        <div class="col-4">
-            <p
-                style="font-size: 17px; color: white; margin: 0; ">
-                Tetap Diperlukan Tes Laboratorium Lebih Lanjut!
-            </p>
-        </div>
-    </div>
+  </div>
+</div>
+
 
 @endsection
