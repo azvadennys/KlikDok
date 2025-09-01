@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Pet Care</title>
+    <title>KlikDok</title>
     <meta content="Infeksi Jamur Kucing" name="description">
     <meta content="Infeksi Jamur Kucing" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/icon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/icon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
+    <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
