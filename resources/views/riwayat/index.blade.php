@@ -5,7 +5,7 @@
 @section('content')
     <div class="p-4">
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-12">
                 <h1 class="mb-4">Daftar Riwayat</h1>
                 <table class="table table-bordered" id="table1">
                     <thead>
